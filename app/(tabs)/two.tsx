@@ -16,7 +16,7 @@ const items = [
 export default function TabTwoScreen() {
   return (
     <View style={styles.container2}>
-      <Button title="Je fais une dmande pour" />
+      <Button title="Je fais une demande pour" />
       <View style={styles.container}>
         {/* <EditScreenInfo path="app/(tabs)/two.tsx" /> */}
         {items.map((item, index) => (
